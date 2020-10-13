@@ -18,7 +18,7 @@ const main = async () => {
                 l2 = parseInt(await leerTeclado('Introduzca el segundo lado del rectángulo'))
                 let rectangulo = new Rectangulo(l1,l2)
                 console.log("Perimetro: "+ rectangulo.getPerimetro())
-                console.log("Area: ="+ rectangulo.getArea())
+                console.log("Area: "+ rectangulo.getArea())
                 break
             case 2:
                 console.log("Perimetro y Area de un circulo")
