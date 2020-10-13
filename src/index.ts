@@ -1,6 +1,6 @@
 import {menu} from '../view/menu'
 import { leerTeclado } from '../view/entradaTeclado'
-import { Rectangulo } from '../figuras/rectangulo'
+import { Rectangulo } from '../figuras/Rectangulo'
 import { Triangulo } from '../figuras/Triangulo'
 import { Circulo } from '../figuras/Circulo'
 import { Rombo } from '../figuras/Rombo'
