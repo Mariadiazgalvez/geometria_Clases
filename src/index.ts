@@ -17,7 +17,7 @@ const main = async () => {
                 l1 = parseInt(await leerTeclado("Introduzca el primer lado del rectángulo"))
                 l2 = parseInt(await leerTeclado('Introduzca el segundo lado del rectángulo'))
                 let rectangulo = new Rectangulo(l1,l2)
-                console.log("Perimetro: ="+ rectangulo.getPerimetro())
+                console.log("Perimetro: "+ rectangulo.getPerimetro())
                 console.log("Area: ="+ rectangulo.getArea())
                 break
             case 2:
@@ -25,8 +25,8 @@ const main = async () => {
                 let r:number
                 r = parseInt(await leerTeclado('Introduzca el radio del círculo'))
                 let circulo = new Circulo(r)
-                console.log("Perimetro: ="+circulo.getPerimetro())
-                console.log("Area: ="+circulo.getArea())
+                console.log("Perimetro: "+circulo.getPerimetro())
+                console.log("Area: "+circulo.getArea())
                 break
             case 3:
                 console.log("Perimetro y Area de un rombo")
@@ -35,8 +35,8 @@ const main = async () => {
                 l = parseInt(await leerTeclado('Introduzca el lado del rombo'))
                 diag = parseInt(await leerTeclado('Introduzca la diagonal del rombo'))
                 let rombo = new Rombo(l,diag)
-                console.log("Perimetro: ="+rombo.getPerimetro())
-                console.log("Area: ="+rombo.getArea())
+                console.log("Perimetro: "+rombo.getPerimetro())
+                console.log("Area: "+rombo.getArea())
                 break
             case 4:
                 console.log("Perimetro y Area de un triangulo equilatero")
@@ -45,8 +45,8 @@ const main = async () => {
                 altura =  parseInt( await leerTeclado('Introduzca la altura del triangulo'))
                 lados =  parseInt( await leerTeclado('Introduzca el lado del triangulo'))
                 let triangulo = new Triangulo(lados,altura)
-                console.log("Perimetro: ="+triangulo.getPerimetro())
-                console.log("Area: ="+triangulo.getArea())
+                console.log("Perimetro: "+triangulo.getPerimetro())
+                console.log("Area: "+triangulo.getArea())
             case 0:
                 console.log('\nAdios')
                 break

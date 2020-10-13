@@ -6,7 +6,7 @@ export const menu = async () => {
     console.log('1.- Rectangulo')
     console.log('2.- Circulo')
     console.log('3.- Rombo')
-    console.log('3.- Triangulo Equilatero')
+    console.log('4.- Triangulo Equilatero')
     console.log('0.- Salir')
     n = parseInt( await leerTeclado('opción: ') )
     return n
