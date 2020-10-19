@@ -1,9 +1,9 @@
-import {menu} from '../view/menu'
-import { leerTeclado } from '../view/entradaTeclado'
-import { Rectangulo } from '../figuras/Rectangulo'
-import { Triangulo } from '../figuras/Triangulo'
-import { Circulo } from '../figuras/Circulo'
-import { Rombo } from '../figuras/Rombo'
+import {menu} from '../src/view/menu'
+import { leerTeclado } from '../src/view/entradaTeclado'
+import { Rectangulo } from '../src/figuras/Rectangulo'
+import { Triangulo } from '../src/figuras/Triangulo'
+import { Circulo } from '../src/figuras/Circulo'
+import { Rombo } from '../src/figuras/Rombo'
 
 const main = async () => {
     let n: number
